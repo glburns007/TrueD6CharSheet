@@ -1,0 +1,8 @@
+{
+  "categorizeByGroup": false,
+  "categoryOrder": ["Main", "Content", "Tabs", "*"],
+  "defaultCategory": "TrueD6CharSheet API",
+  "readme": "./src/api/README.md",
+  "name": "TrueD6CharSheet API",
+  "entryPoints": ["./src/api/index.ts"]
+}
