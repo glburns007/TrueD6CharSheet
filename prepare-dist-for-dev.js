@@ -28,13 +28,13 @@ function prepareDistForDev() {
 
   // Put empty tidy5e-sheet.js and tidy5e-sheet.css files in place
   const message =
-    'Hello, Tidy 5e dev 👋. This file exists so that foundry is happy and will consider the module eligible to load up. The vite server proxy will do the rest.';
+    'Hello, True-D6 dev 👋. This file exists so that Foundry VTT is happy and will consider the module eligible to load up. The vite server proxy will do the rest.';
 
-  fs.writeFileSync(path.join(distFolder, 'tidy5e-sheet.js'), `// ${message}`);
+  fs.writeFileSync(path.join(distFolder, 'trued6-sheet.js'), `// ${message}`);
 
-  fs.writeFileSync(path.join(distFolder, 'tidy5e-sheet.css'), `/* ${message} */`);
+  fs.writeFileSync(path.join(distFolder, 'trued6-sheet.css'), `/* ${message} */`);
   
-  fs.writeFileSync(path.join(distFolder, 'tidy5e-sheet.lock'), "🔒");
+  fs.writeFileSync(path.join(distFolder, 'trued6-sheet.lock'), "🔒");
 }
 
 prepareDistForDev();
